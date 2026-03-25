@@ -1,1 +1,2 @@
-// 아무것도 없어도 됨 — 심플하게 가기
+// 페이지 로드 fade-in
+document.body.classList.add('ready');
