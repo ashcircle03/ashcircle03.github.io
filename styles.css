@@ -196,6 +196,18 @@ hr {
   font-variant-numeric: tabular-nums;
 }
 
+/* Org badge */
+.org-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  padding: 1px 6px;
+  letter-spacing: 0.03em;
+  opacity: 0.85;
+}
+
 /* ===== Skills ===== */
 .skills-text {
   font-size: 0.95rem;
