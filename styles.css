@@ -229,7 +229,8 @@ hr {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
   flex-shrink: 0;
-  width: 52px;
+  min-width: 56px;
+  margin-right: 8px;
 }
 
 /* ===== Skills ===== */
