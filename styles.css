@@ -208,6 +208,30 @@ hr {
   opacity: 0.85;
 }
 
+/* ===== Simple list (certs / awards) ===== */
+.simple-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.simple-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.simple-year {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+  width: 52px;
+}
+
 /* ===== Skills ===== */
 .skills-text {
   font-size: 0.95rem;
